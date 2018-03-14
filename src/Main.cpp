@@ -63,8 +63,8 @@ int main(int argc, char *argv[]) {
     obj.faces.push_back(f5);
     PlaneProjection p = obj.project3D(thisarr);
     cout << "Projection: " << p << endl;
-    MainWindow window;
-    runApplication(argc, argv, window);
+    // MainWindow window;
+    // runApplication(argc, argv, window);
     Point etop, atop, btop, ctop, dtop, afront,dfront, bfront,cfront, efront, eside, dside, cside, aside, bside;
     etop.setCoordinatesAndLabel(1.5,1.5,0,"e");
     atop.setCoordinatesAndLabel(1,1,0,"a");
